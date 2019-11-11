@@ -6,6 +6,35 @@
 
 (function($) {
 
+	
+
+
+	$(".link-accueil").click(function(){
+		$('html, body').animate({
+		    scrollTop: $("#first").offset().top
+		}, 500);
+	});
+
+	$(".link-quand").click(function(){
+		$('html, body').animate({
+		    scrollTop: $("#second").offset().top
+		}, 500);
+	});
+
+	$(".link-approche").click(function(){
+		$('html, body').animate({
+		    scrollTop: $("#three").offset().top
+		}, 500);
+	});
+
+	$(".link-contact").click(function(){
+		$('html, body').animate({
+		    scrollTop: $("#four").offset().top
+		}, 500);
+	});
+
+
+
 	var	$window = $(window),
 		$body = $('body'),
 		settings = {
